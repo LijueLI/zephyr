@@ -1,0 +1,7 @@
+sample:
+  name: mytest
+tests:
+  sample.my_test.ble_mesh.sensor_app:
+    platform_whitelist: nrf52840_pca10056
+    tags: bluetooth
+    harness: bluetooth
